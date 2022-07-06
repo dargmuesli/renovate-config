@@ -12,8 +12,6 @@
   },
   "extends": [
     "config:base",
-    "group:allNonMajor",
-    "schedule:daily",
     ":disableDependencyDashboard",
     ":semanticCommits",
     ":semanticCommitTypeAll(chore)"
