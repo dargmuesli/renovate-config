@@ -1,7 +1,6 @@
 {
   "automerge": true,
   "automergeType": "branch",
-  "baseBranches": ["alpha", "beta", "master"],
   "docker": {
     "major": {
       "enabled": true
