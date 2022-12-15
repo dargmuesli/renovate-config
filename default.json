@@ -5,7 +5,7 @@
     "major": {
       "enabled": true
     },
-    "pinDigests": true
+    "pinDigests": false // `true` would lead to incompatibility with different architectures, like ARM on Apple's M1 processor
   },
   "docker-compose": {
     "fileMatch": ["(^|/)(stack|production)[^/]*\\.ya?ml$"]
