@@ -22,5 +22,12 @@
   "lockFileMaintenance": { "enabled": true },
   "major": {
     "automerge": false
-  }
+  },
+  "packageRules": [
+    {
+      "groupName": "playwright monorepo extended",
+      "extends": "group:playwrightMonorepo",
+      "matchPackageNames": ["mcr.microsoft.com/playwright"]
+    }
+  ]
 }
