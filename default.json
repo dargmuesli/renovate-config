@@ -29,5 +29,6 @@
       "extends": "group:playwrightMonorepo",
       "matchPackageNames": ["mcr.microsoft.com/playwright"]
     }
-  ]
+  ],
+  "printConfig": true
 }
