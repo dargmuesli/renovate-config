@@ -1,0 +1,15 @@
+{
+  "name": "@dargmuesli/renovate-config",
+  "version": "1.0.0",
+  "description": "Preset for Renovate",
+  "license": "MIT",
+  "homepage": "https://github.com/dargmuesli/renovate",
+  "scripts": {
+    "test": "renovate-config-validator default.json",
+    "prepare": "pnpm run test"
+  },
+  "devDependencies": {
+    "renovate": "latest"
+  },
+  "packageManager": "pnpm@8.6.5"
+}
