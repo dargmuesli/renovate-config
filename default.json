@@ -25,8 +25,12 @@
   },
   "packageRules": [
     {
-      "groupName": "playwright monorepo extended",
-      "matchPackageNames": ["@playwright/test", "mcr.microsoft.com/playwright"]
+      "groupName": "playwright monorepo",
+      "matchPackageNames": [
+        "@playwright/test",
+        "mcr.microsoft.com/playwright",
+        "playwright-core"
+      ]
     }
   ],
   "printConfig": true
