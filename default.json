@@ -34,5 +34,14 @@
       ]
     }
   ],
-  "printConfig": true
+  "printConfig": true,
+  "regexManagers": [
+    {
+      "fileMatch": ["^Dockerfile$"],
+      "matchStrings": ["FROM node:(?<currentValue>.*?)-(alpine|slim)\\n"],
+      "depNameTemplate": "node",
+      "datasourceTemplate": "node",
+      "versioningTemplate": "node"
+    }
+  ]
 }
