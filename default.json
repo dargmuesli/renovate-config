@@ -15,8 +15,10 @@
   "extends": [
     "config:base",
     ":disableDependencyDashboard",
+    ":pinDevDependencies",
     ":semanticCommits",
-    ":semanticCommitTypeAll(chore)"
+    ":semanticCommitTypeAll(chore)",
+    ":widenPeerDependencies"
   ],
   "git-submodules": {
     "enabled": true
@@ -28,6 +30,12 @@
     "automerge": false
   },
   "packageRules": [
+    {
+      "matchDepTypes": [
+        "dependencies"
+      ],
+      "rangeStrategy": "update-lockfile"
+    },
     {
       "groupName": "playwright monorepo",
       "matchPackageNames": [
