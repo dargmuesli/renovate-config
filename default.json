@@ -25,12 +25,6 @@
   },
   "packageRules": [
     {
-      "matchDepTypes": [
-        "dependencies"
-      ],
-      "rangeStrategy": "update-lockfile"
-    },
-    {
       "groupName": "playwright monorepo",
       "matchPackageNames": [
         "@playwright/test",
