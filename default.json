@@ -8,7 +8,9 @@
     }
   },
   "docker-compose": {
-    "fileMatch": ["(^|/)(stack|production)[^/]*\\.ya?ml$"]
+    "fileMatch": [
+      "(^|/)(stack|production)[^/]*\\.ya?ml$"
+    ]
   },
   "extends": [
     "config:base",
@@ -19,7 +21,9 @@
   "git-submodules": {
     "enabled": true
   },
-  "lockFileMaintenance": { "enabled": true },
+  "lockFileMaintenance": {
+    "enabled": true
+  },
   "major": {
     "automerge": false
   },
@@ -36,10 +40,14 @@
   "printConfig": true,
   "regexManagers": [
     {
-      "fileMatch": ["^Dockerfile$"],
-      "matchStrings": ["FROM node:(?<currentValue>.*?)-(alpine|slim)\\n"],
-      "depNameTemplate": "node",
       "datasourceTemplate": "node",
+      "depNameTemplate": "node",
+      "fileMatch": [
+        "^Dockerfile$"
+      ],
+      "matchStrings": [
+        "FROM node:(?<currentValue>.*?)-(alpine|slim)\\n"
+      ],
       "versioningTemplate": "node"
     }
   ]
