@@ -14,7 +14,7 @@
     ]
   },
   "extends": [
-    "config:base",
+    "config:recommended",
     ":disableDependencyDashboard",
     ":pinDevDependencies",
     ":semanticCommits",
