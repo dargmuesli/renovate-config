@@ -7,7 +7,7 @@ settings:
 devDependencies:
   renovate:
     specifier: ^37.186.1
-    version: 37.219.0(typanion@3.14.0)
+    version: 37.219.2(typanion@3.14.0)
 
 packages:
 
@@ -961,8 +961,8 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@babel/runtime-corejs3@7.23.9:
-    resolution: {integrity: sha512-oeOFTrYWdWXCvXGB5orvMTJ6gCZ9I6FBjR+M38iKNXCsPxr4xT0RTdg5uz1H7QP8pp74IzPtwritEr+JscqHXQ==}
+  /@babel/runtime-corejs3@7.24.0:
+    resolution: {integrity: sha512-HxiRMOncx3ly6f3fcZ1GVKf+/EROcI9qwPgmij8Czqy6Okm/0T37T4y2ZIlLUuEUFjtM7NRsfdCO8Y3tAiJZew==}
     engines: {node: '>=6.9.0'}
     dependencies:
       core-js-pure: 3.36.0
@@ -1438,7 +1438,7 @@ packages:
   /@qnighy/marshal@0.1.3:
     resolution: {integrity: sha512-uaDZTJYtD2UgQTGemmgWeth+e2WapZm+GkAq8UU8AJ55PKRFaf1GkH7X/uzA+Ygu8iInzIlM2FGyCUnruyMKMg==}
     dependencies:
-      '@babel/runtime-corejs3': 7.23.9
+      '@babel/runtime-corejs3': 7.24.0
     dev: true
 
   /@redis/bloom@1.2.0(@redis/client@1.5.14):
@@ -4603,8 +4603,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.219.0(typanion@3.14.0):
-    resolution: {integrity: sha512-lF9c8D85G/hfaBq7CRRnhxe2thT4AnPVLLZzU4sXfkER6GlfbkISe33kuSgskyKYUMefK2SM7BfsbU2k0yyNqw==}
+  /renovate@37.219.2(typanion@3.14.0):
+    resolution: {integrity: sha512-DI6Y6zH80T94VGtk3u5UKqDuJiySa9ZMjM1Cz0l+OstrfGxfvFk/OZeazlkZJeCW7GEq8piRuGjVWp15K6G6cQ==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
