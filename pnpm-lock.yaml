@@ -7,7 +7,7 @@ settings:
 devDependencies:
   renovate:
     specifier: ^37.186.1
-    version: 37.220.3(typanion@3.14.0)
+    version: 37.220.4(typanion@3.14.0)
 
 packages:
 
@@ -1981,13 +1981,13 @@ packages:
   /@types/better-sqlite3@7.6.9:
     resolution: {integrity: sha512-FvktcujPDj9XKMJQWFcl2vVl7OdRIqsSRX9b0acWwTmwLK9CF2eqo/FRcmMLNpugKoX/avA6pb7TorDLmpgTnQ==}
     dependencies:
-      '@types/node': 20.11.23
+      '@types/node': 20.11.24
     dev: true
 
   /@types/bunyan@1.8.9:
     resolution: {integrity: sha512-ZqS9JGpBxVOvsawzmVt30sP++gSQMTejCkIAQ3VdadOcRE8izTyW66hufvwLeH+YEGP6Js2AW7Gz+RMyvrEbmw==}
     dependencies:
-      '@types/node': 20.11.23
+      '@types/node': 20.11.24
     dev: true
 
   /@types/cacheable-request@6.0.3:
@@ -1995,7 +1995,7 @@ packages:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 20.11.23
+      '@types/node': 20.11.24
       '@types/responselike': 1.0.3
     dev: true
 
@@ -2010,7 +2010,7 @@ packages:
   /@types/keyv@3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 20.11.23
+      '@types/node': 20.11.24
     dev: true
 
   /@types/mdast@3.0.15:
@@ -2031,8 +2031,8 @@ packages:
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
     dev: true
 
-  /@types/node@20.11.23:
-    resolution: {integrity: sha512-ZUarKKfQuRILSNYt32FuPL20HS7XwNT7/uRwSV8tiHWfyyVwDLYZNF6DZKc2bove++pgfsXn9sUwII/OsQ82cQ==}
+  /@types/node@20.11.24:
+    resolution: {integrity: sha512-Kza43ewS3xoLgCEpQrsT+xRo/EJej1y0kVYGiLFE1NEODXGzTfwiC6tXTLMQskn1X4/Rjlh0MQUvx9W+L9long==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -2044,7 +2044,7 @@ packages:
   /@types/responselike@1.0.3:
     resolution: {integrity: sha512-H/+L+UkTV33uf49PH5pCAUBVPNj2nDBXTN+qS1dOwyyg24l3CcicicCA7ca+HMvJBZcFgl5r8e+RR6elsb4Lyw==}
     dependencies:
-      '@types/node': 20.11.23
+      '@types/node': 20.11.24
     dev: true
 
   /@types/semver@7.5.8:
@@ -2071,7 +2071,7 @@ packages:
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.11.23
+      '@types/node': 20.11.24
     dev: true
     optional: true
 
@@ -4603,8 +4603,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.220.3(typanion@3.14.0):
-    resolution: {integrity: sha512-aihKG1LsNMNFClf5ZBeNZjvmsPCq7cCC6xRfu2vMFItfUeWXwAgDVsiHgs6aBEDJCDUn8tLF3BS7P+CCnh7i8A==}
+  /renovate@37.220.4(typanion@3.14.0):
+    resolution: {integrity: sha512-JJPWUhOsepOsP483BiSzhN4fdWsOAhVY41i0E8IQQiP401+mNbt5sbRNeysEjeaPWvrhZhHmJl4+BJRCHQTZag==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
