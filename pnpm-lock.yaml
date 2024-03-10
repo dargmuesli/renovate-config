@@ -7,7 +7,7 @@ settings:
 devDependencies:
   renovate:
     specifier: ^37.186.1
-    version: 37.234.1(typanion@3.14.0)
+    version: 37.235.0(typanion@3.14.0)
 
 packages:
 
@@ -3084,7 +3084,7 @@ packages:
       function-bind: 1.1.2
       has-proto: 1.0.3
       has-symbols: 1.0.3
-      hasown: 2.0.1
+      hasown: 2.0.2
     dev: true
 
   /get-stream@5.2.0:
@@ -3299,8 +3299,8 @@ packages:
       has-symbols: 1.0.3
     dev: true
 
-  /hasown@2.0.1:
-    resolution: {integrity: sha512-1/th4MHjnwncwXsIW6QMzlvYL9kG5e/CpVvLRZe4XPa8TOUNbCELqmvhDmnkNsAjwaG4+I8gJJL0JBvTTLO9qA==}
+  /hasown@2.0.2:
+    resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
     dependencies:
       function-bind: 1.1.2
@@ -3478,7 +3478,7 @@ packages:
   /is-core-module@2.13.1:
     resolution: {integrity: sha512-hHrIjvZsftOsvKSn2TRYl63zvxsgE0K+0mYMoH6gD4omR5IWB2KynivBQczo3+wF1cCkjzvptnI9Q0sPU66ilw==}
     dependencies:
-      hasown: 2.0.1
+      hasown: 2.0.2
     dev: true
 
   /is-decimal@1.0.4:
@@ -4603,8 +4603,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.234.1(typanion@3.14.0):
-    resolution: {integrity: sha512-8GUVqCbzvJrFIDHc6bZX9Tuy/mQJpqu3pZvN2MKtx8edesnUXYwouVLVvT9D7IyfrXmJMgbec6hRIsys9HTJTw==}
+  /renovate@37.235.0(typanion@3.14.0):
+    resolution: {integrity: sha512-yn6iDCyIk/OMVQOqxqiui8tsaVo+UuYPsZo8yfyYIk7+MhSVE2GlD4SkaWuH4h2nUhZc/D1qJa5qcIJwNVcERg==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
