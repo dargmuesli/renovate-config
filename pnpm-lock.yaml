@@ -7,7 +7,7 @@ settings:
 devDependencies:
   renovate:
     specifier: ^37.186.1
-    version: 37.235.1(typanion@3.14.0)
+    version: 37.235.2(typanion@3.14.0)
 
 packages:
 
@@ -3549,7 +3549,7 @@ packages:
     resolution: {integrity: sha512-uZ25/bUAlUY5fR4OKT4rZQEBrzQWYV9ZJYGGsUmEJ6thodVJ1HX64ePQ6Z0qPWP+m+Uq6e9UugrE38jeYsDSMw==}
     engines: {node: '>= 0.4'}
     dependencies:
-      which-typed-array: 1.1.14
+      which-typed-array: 1.1.15
     dev: true
 
   /is-typedarray@1.0.0:
@@ -4603,8 +4603,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.235.1(typanion@3.14.0):
-    resolution: {integrity: sha512-KLZesF4mS5oygBZiGn2xoXNrqqefL0WVLkyvpOgb2KuYLe7cHIQVlGiuCeIXyApseXCdLB6UeOYilIUbTqpjeg==}
+  /renovate@37.235.2(typanion@3.14.0):
+    resolution: {integrity: sha512-oQAfMv/OgRbfg4rZ2yK2iK+j9YOa2YNafqcRK1sDJ6zk+Emz/WWu2svBS/BFh4zH9gnX+kTjPKqfhNya2LO9ww==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -5374,7 +5374,7 @@ packages:
       is-arguments: 1.1.1
       is-generator-function: 1.0.10
       is-typed-array: 1.1.13
-      which-typed-array: 1.1.14
+      which-typed-array: 1.1.15
     dev: true
 
   /uuid@8.3.2:
@@ -5427,8 +5427,8 @@ packages:
       webidl-conversions: 3.0.1
     dev: true
 
-  /which-typed-array@1.1.14:
-    resolution: {integrity: sha512-VnXFiIW8yNn9kIHN88xvZ4yOWchftKDsRJ8fEPacX/wl1lOvBrhsJ/OeJCXq7B0AaijRuqgzSKalJoPk+D8MPg==}
+  /which-typed-array@1.1.15:
+    resolution: {integrity: sha512-oV0jmFtUky6CXfkqehVvBP/LSWJ2sy4vWMioiENyJLePrBO/yKyV9OyJySfAKosh+RYkIl5zJCNZ8/4JncrpdA==}
     engines: {node: '>= 0.4'}
     dependencies:
       available-typed-arrays: 1.0.7
