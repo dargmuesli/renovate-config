@@ -7,7 +7,7 @@ settings:
 devDependencies:
   renovate:
     specifier: ^37.186.1
-    version: 37.249.0(typanion@3.14.0)
+    version: 37.249.3(typanion@3.14.0)
 
 packages:
 
@@ -46,7 +46,7 @@ packages:
       '@aws-crypto/supports-web-crypto': 3.0.0
       '@aws-crypto/util': 3.0.0
       '@aws-sdk/types': 3.357.0
-      '@aws-sdk/util-locate-window': 3.495.0
+      '@aws-sdk/util-locate-window': 3.535.0
       '@aws-sdk/util-utf8-browser': 3.259.0
       tslib: 1.14.1
     dev: true
@@ -59,7 +59,7 @@ packages:
       '@aws-crypto/supports-web-crypto': 3.0.0
       '@aws-crypto/util': 3.0.0
       '@aws-sdk/types': 3.357.0
-      '@aws-sdk/util-locate-window': 3.495.0
+      '@aws-sdk/util-locate-window': 3.535.0
       '@aws-sdk/util-utf8-browser': 3.259.0
       tslib: 1.14.1
     dev: true
@@ -887,8 +887,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@aws-sdk/util-locate-window@3.495.0:
-    resolution: {integrity: sha512-MfaPXT0kLX2tQaR90saBT9fWQq2DHqSSJRzW+MZWsmF+y5LGCOhO22ac/2o6TKSQm7h0HRc2GaADqYYYor62yg==}
+  /@aws-sdk/util-locate-window@3.535.0:
+    resolution: {integrity: sha512-PHJ3SL6d2jpcgbqdgiPxkXpu7Drc2PYViwxSIqvvMKhDwzSB1W3mMvtpzwKM4IE7zLFodZo0GKjJ9AsoXndXhA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       tslib: 2.6.2
@@ -4627,8 +4627,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.249.0(typanion@3.14.0):
-    resolution: {integrity: sha512-0ZdJgkSPdDqhoCMaooGctQBTLakKpM9QOC7Iv1I8dhQc+L9TAU2an46awQW3jn+wWvktHwp/PPr6CoLt22WYdw==}
+  /renovate@37.249.3(typanion@3.14.0):
+    resolution: {integrity: sha512-YZNZTzZgSvSsoi7FtZ+7ZOjpvd5BhP77qeIpE+sD/kYdNyFJqhx7VoPz25Cna84bjRboJMdXVDrh0yN5TnROqg==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
