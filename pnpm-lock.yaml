@@ -7,7 +7,7 @@ settings:
 devDependencies:
   renovate:
     specifier: ^37.186.1
-    version: 37.256.0(typanion@3.14.0)
+    version: 37.256.1(typanion@3.14.0)
 
 packages:
 
@@ -965,7 +965,7 @@ packages:
     resolution: {integrity: sha512-HxiRMOncx3ly6f3fcZ1GVKf+/EROcI9qwPgmij8Czqy6Okm/0T37T4y2ZIlLUuEUFjtM7NRsfdCO8Y3tAiJZew==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      core-js-pure: 3.36.0
+      core-js-pure: 3.36.1
       regenerator-runtime: 0.14.1
     dev: true
 
@@ -1049,7 +1049,7 @@ packages:
     resolution: {integrity: sha512-7kZUAaLscfgbwBQRbvdMYaZOWyMEcPTH/tJjnyAWJ/dvvs9Ef+CERx/qJb9GExJpl1qipaDGn7KqHnFGGixd0w==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /@octokit/auth-token@4.0.0:
@@ -1235,7 +1235,7 @@ packages:
       '@opentelemetry/core': 1.21.0(@opentelemetry/api@1.7.0)
       '@opentelemetry/instrumentation': 0.48.0(@opentelemetry/api@1.7.0)
       '@opentelemetry/semantic-conventions': 1.21.0
-      semver: 7.5.4
+      semver: 7.6.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1250,7 +1250,7 @@ packages:
       '@types/shimmer': 1.0.5
       import-in-the-middle: 1.7.1
       require-in-the-middle: 7.2.1
-      semver: 7.5.4
+      semver: 7.6.0
       shimmer: 1.2.1
     transitivePeerDependencies:
       - supports-color
@@ -1267,7 +1267,7 @@ packages:
       '@types/shimmer': 1.0.5
       import-in-the-middle: 1.7.1
       require-in-the-middle: 7.2.1
-      semver: 7.5.4
+      semver: 7.6.0
       shimmer: 1.2.1
     transitivePeerDependencies:
       - supports-color
@@ -1378,7 +1378,7 @@ packages:
       '@opentelemetry/propagator-b3': 1.21.0(@opentelemetry/api@1.7.0)
       '@opentelemetry/propagator-jaeger': 1.21.0(@opentelemetry/api@1.7.0)
       '@opentelemetry/sdk-trace-base': 1.21.0(@opentelemetry/api@1.7.0)
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /@opentelemetry/semantic-conventions@1.21.0:
@@ -2122,7 +2122,7 @@ packages:
       lodash: 4.17.21
       micromatch: 4.0.5
       p-limit: 2.3.0
-      semver: 7.5.4
+      semver: 7.6.0
       strip-ansi: 6.0.1
       tar: 6.2.0
       tinylogic: 2.0.0
@@ -2407,7 +2407,7 @@ packages:
   /builtins@5.0.1:
     resolution: {integrity: sha512-qwVpFEHNfhYJIzNRBvd2C1kyo6jz3ZSMPyyuR47OPdiKWlbYnZNyDWuyR175qDnAJLiCo5fBBqPb3RiXgWlkOQ==}
     dependencies:
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /bunyan@1.8.15:
@@ -2617,8 +2617,8 @@ packages:
       through2-concurrent: 2.0.0
     dev: true
 
-  /core-js-pure@3.36.0:
-    resolution: {integrity: sha512-cN28qmhRNgbMZZMc/RFu5w8pK9VJzpb2rJVR/lHuZJKwmXnoWOpXmMkxqBB514igkp1Hu8WGROsiOAzUcKdHOQ==}
+  /core-js-pure@3.36.1:
+    resolution: {integrity: sha512-NXCvHvSVYSrewP0L5OhltzXeWFJLo2AL2TYnj6iLV3Bw8mM62wAQMNgUCRI6EBu6hVVpbCxmOPlxh1Ikw2PfUA==}
     requiresBuild: true
     dev: true
 
@@ -2814,7 +2814,7 @@ packages:
       '@one-ini/wasm': 0.1.1
       commander: 11.1.0
       minimatch: 9.0.2
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /email-addresses@5.0.0:
@@ -3190,7 +3190,7 @@ packages:
       es6-error: 4.1.1
       matcher: 3.0.0
       roarr: 2.15.4
-      semver: 7.5.4
+      semver: 7.6.0
       serialize-error: 7.0.1
     dev: true
 
@@ -4148,7 +4148,7 @@ packages:
     resolution: {integrity: sha512-fZjdhDOeRcaS+rcpve7XuwHBmktS1nS1gzgghwKUQQ8nTy2FdSDr6ZT8k6YhvlJeHmmQMYiT/IH9hfco5zeW2Q==}
     engines: {node: '>=10'}
     dependencies:
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /node-fetch@2.7.0:
@@ -4176,7 +4176,7 @@ packages:
       make-fetch-happen: 13.0.0
       nopt: 7.2.0
       proc-log: 3.0.0
-      semver: 7.5.4
+      semver: 7.6.0
       tar: 6.2.0
       which: 4.0.0
     transitivePeerDependencies:
@@ -4216,7 +4216,7 @@ packages:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.13.1
-      semver: 7.5.4
+      semver: 7.6.0
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -4627,8 +4627,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.256.0(typanion@3.14.0):
-    resolution: {integrity: sha512-gP6mYjLo/R/r1i0gJ2NtJJrqoICr56X4KN6bodSNWs3rhtIyoawGPwmzfHrOaNokq4jMl2ZdBOVUQkZbq0dZLQ==}
+  /renovate@37.256.1(typanion@3.14.0):
+    resolution: {integrity: sha512-17NEiaYvLx9I6lgwtodHvVl1LGVUSYpDR04x10n/h/4fSAVDcFOzpS1VU9jhtaCMBIo2mAbKnstsKM+sld2o/A==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4724,7 +4724,7 @@ packages:
       remark: 13.0.0
       remark-github: 10.1.0
       safe-stable-stringify: 2.4.3
-      semver: 7.5.4
+      semver: 7.6.0
       semver-stable: 3.0.0
       semver-utils: 1.1.4
       shlex: 2.1.2
@@ -4876,8 +4876,8 @@ packages:
     hasBin: true
     dev: true
 
-  /semver@7.5.4:
-    resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
+  /semver@7.6.0:
+    resolution: {integrity: sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
