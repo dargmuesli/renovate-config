@@ -7,7 +7,7 @@ settings:
 devDependencies:
   renovate:
     specifier: ^37.186.1
-    version: 37.264.0(typanion@3.14.0)
+    version: 37.265.0(typanion@3.14.0)
 
 packages:
 
@@ -2102,7 +2102,7 @@ packages:
       p-limit: 2.3.0
       semver: 7.6.0
       strip-ansi: 6.0.1
-      tar: 6.2.0
+      tar: 6.2.1
       tinylogic: 2.0.0
       treeify: 1.1.0
       tslib: 2.6.2
@@ -2413,7 +2413,7 @@ packages:
       minipass-pipeline: 1.2.4
       p-map: 4.0.0
       ssri: 10.0.5
-      tar: 6.2.0
+      tar: 6.2.1
       unique-filename: 3.0.0
     dev: true
 
@@ -4155,7 +4155,7 @@ packages:
       nopt: 7.2.0
       proc-log: 3.0.0
       semver: 7.6.0
-      tar: 6.2.0
+      tar: 6.2.1
       which: 4.0.0
     transitivePeerDependencies:
       - supports-color
@@ -4609,8 +4609,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.264.0(typanion@3.14.0):
-    resolution: {integrity: sha512-u3d62ceptq9qdho/2qZCGGiZKvBhELqopA8f/92inMrTYZAYIolEpQjQK3g42g3XIOcorq8/RvFzZD0bLsD2/A==}
+  /renovate@37.265.0(typanion@3.14.0):
+    resolution: {integrity: sha512-6S+VMpAWR0436LKKc5y6dd4p3riNbEP+gdHRbrknxzR8UV18iK4uuXjjhpVGUNAB4vWLVjCSxVQQLCvYF+ZLwQ==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -5151,8 +5151,8 @@ packages:
       readable-stream: 3.6.2
     dev: true
 
-  /tar@6.2.0:
-    resolution: {integrity: sha512-/Wo7DcT0u5HUV486xg675HtjNd3BXZ6xDbzsCUZPt5iw8bTQ63bP0Raut3mvro9u+CUyq7YQd8Cx55fsZXxqLQ==}
+  /tar@6.2.1:
+    resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
     dependencies:
       chownr: 2.0.0
