@@ -7,7 +7,7 @@ settings:
 devDependencies:
   renovate:
     specifier: ^37.186.1
-    version: 37.296.0(typanion@3.14.0)
+    version: 37.298.0(typanion@3.14.0)
 
 packages:
 
@@ -3059,8 +3059,8 @@ packages:
     resolution: {integrity: sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==}
     dev: true
 
-  /gaxios@6.4.0:
-    resolution: {integrity: sha512-apAloYrY4dlBGlhauDAYSZveafb5U6+L9titing1wox6BvWM0TSXBp603zTrLpyLMGkrcFgohnUN150dFN/zOA==}
+  /gaxios@6.5.0:
+    resolution: {integrity: sha512-R9QGdv8j4/dlNoQbX3hSaK/S0rkMijqjVvW3YM06CoBdbU/VdKd159j4hePpng0KuE6Lh6JJ7UdmVGJZFcAG1w==}
     engines: {node: '>=14'}
     dependencies:
       extend: 3.0.2
@@ -3077,7 +3077,7 @@ packages:
     resolution: {integrity: sha512-Jh/AIwwgaxan+7ZUUmRLCjtchyDiqh4KjBJ5tW3plBZb5iL/BPcso8A5DlzeD9qlw0duCamnNdpFjxwaT0KyKg==}
     engines: {node: '>=14'}
     dependencies:
-      gaxios: 6.4.0
+      gaxios: 6.5.0
       json-bigint: 1.0.0
     transitivePeerDependencies:
       - encoding
@@ -3206,7 +3206,7 @@ packages:
     dependencies:
       base64-js: 1.5.1
       ecdsa-sig-formatter: 1.0.11
-      gaxios: 6.4.0
+      gaxios: 6.5.0
       gcp-metadata: 6.1.0
       gtoken: 7.1.0
       jws: 4.0.0
@@ -3254,7 +3254,7 @@ packages:
     resolution: {integrity: sha512-pCcEwRi+TKpMlxAQObHDQ56KawURgyAf6jtIY046fJ5tIv3zDe/LEIubckAO8fj6JnAxLdmWkUfNyulQ2iKdEw==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      gaxios: 6.4.0
+      gaxios: 6.5.0
       jws: 4.0.0
     transitivePeerDependencies:
       - encoding
@@ -4620,8 +4620,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.296.0(typanion@3.14.0):
-    resolution: {integrity: sha512-TL8E/P+nvPARToJKZU0PApY7GrBb8JeSVYQZAI7dRNC8IgL4qQzSD4P27Ed2d7HgVBOt8Xm1Xw4XdxtJWb75/w==}
+  /renovate@37.298.0(typanion@3.14.0):
+    resolution: {integrity: sha512-CygvKkw72mK5/xTP+r0pBiCyv6nxebKMpsJ+I09f4cQgoglAQrTsZBeF5KoTSYDlD7eA76dmIcCgizwEYvR1JA==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
