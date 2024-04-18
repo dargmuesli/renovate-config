@@ -10,7 +10,7 @@ importers:
     devDependencies:
       renovate:
         specifier: ^37.186.1
-        version: 37.303.2(encoding@0.1.13)(typanion@3.14.0)
+        version: 37.303.4(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -2037,8 +2037,8 @@ packages:
   neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
-  node-abi@3.58.0:
-    resolution: {integrity: sha512-pXY1jnGf5T7b8UNzWzIqf0EkX4bx/w8N2AvwlGnk2SYYA/kzDVPaH0Dh0UG4EwxBB5eKOIZKPr8VAHSHL1DPGg==}
+  node-abi@3.59.0:
+    resolution: {integrity: sha512-HyyfzvTLCE8b1SX2nWimlra8cibEsypcSu/Az4SXMhWhtuctkwAX7qsEYNjUOIoYtPV884oN3wtYTN+iZKBtvw==}
     engines: {node: '>=10'}
 
   node-fetch@2.7.0:
@@ -2294,8 +2294,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.303.2:
-    resolution: {integrity: sha512-hl3Rc0jP9H55KgWXkEXM4aXb1RZ+IWpaXTC5d//wa7ZxOYMWRd8WaP1oCU8VbbSw4ulNK8Gn8rM7m9spVV/USA==}
+  renovate@37.303.4:
+    resolution: {integrity: sha512-ykfY6+M68kRBXtZ83afcuFtYbzDpSCRq/2L4IsGmsJgANckNcMZzhi3Iya1CoQqyIMqSxGNTXDokMdffcD9NfA==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
 
@@ -5673,7 +5673,7 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  node-abi@3.58.0:
+  node-abi@3.59.0:
     dependencies:
       semver: 7.6.0
 
@@ -5853,7 +5853,7 @@ snapshots:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 1.0.2
-      node-abi: 3.58.0
+      node-abi: 3.59.0
       pump: 3.0.0
       rc: 1.2.8
       simple-get: 4.0.1
@@ -5987,7 +5987,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.303.2(encoding@0.1.13)(typanion@3.14.0):
+  renovate@37.303.4(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.363.0
       '@aws-sdk/client-ec2': 3.363.0
