@@ -10,7 +10,7 @@ importers:
     devDependencies:
       renovate:
         specifier: ^37.186.1
-        version: 37.351.1(@aws-sdk/client-sso-oidc@3.569.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.569.0))(encoding@0.1.13)(typanion@3.14.0)
+        version: 37.351.2(@aws-sdk/client-sso-oidc@3.569.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.569.0))(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -905,15 +905,15 @@ packages:
     resolution: {integrity: sha512-O+WGCjB9aIBxdRMBxXdsIy08MW4RbxfCS2AfywWb8DPS9H0LICahUJgNAaE0fwCsW7/gNzQbLYlh9DQQwzONrA==}
     engines: {node: '>=18.12.0'}
 
-  '@yarnpkg/fslib@3.0.2':
-    resolution: {integrity: sha512-dqSpZCj9ZeqMZzITHvpi5qKS9MCLWZYCl6NHCSl3a+BqiyLApehWAy60zjv9F1fxKZ6RKDgHLhBWhx8RwPm6Dw==}
+  '@yarnpkg/fslib@3.1.0':
+    resolution: {integrity: sha512-wsj7/sUVSdXOIX/qwaON/Ky5GsP5gs9ry9DKwgLbWT7k3qw4/EcHAtfTtPhBYu33UibzBFI+fgB4wBRVH2XVaw==}
     engines: {node: '>=18.12.0'}
 
-  '@yarnpkg/libzip@3.0.1':
-    resolution: {integrity: sha512-fiqRLk2fyd2r34/Qc7HlP8fKIo1CK5CZpLNObJwnbFmZQN2hVanovFlG++3oH3qYJymEmjPl5EGsygcEJZl4Pg==}
+  '@yarnpkg/libzip@3.1.0':
+    resolution: {integrity: sha512-x66/F8wEOUL8Hi4NZFVVKCFNITN0keQt0ZNlY5V9dRb+judyO8aJv4hazO3WyblnGhClvuBPbx+a2X4LNS5ziA==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
-      '@yarnpkg/fslib': ^3.0.2
+      '@yarnpkg/fslib': ^3.1.0
 
   '@yarnpkg/parsers@3.0.0':
     resolution: {integrity: sha512-jVZa3njBv6tcOUw34nlUdUM/40wwtm/gnVF8rtk0tA6vNcokqYI8CFU1BZjlpFwUSZaXxYkrtuPE/f2MMFlTxQ==}
@@ -2464,8 +2464,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.351.1:
-    resolution: {integrity: sha512-35GnpiVEJS8VCw5GogRhx09J6FIgJK26G61DIKxk1Uws+LwJD4EpwoGOJBUKP/kK+vvU+0QiucO8QCmKhmhC6g==}
+  renovate@37.351.2:
+    resolution: {integrity: sha512-wKpceMBp/gS3xTEMQeF2z3wReQSVbuo7PDQKX8wRIGAj+3UmViQEHkhc68V/qfOox1b1M7JxzLRPWqOwohFm6w==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -4959,8 +4959,8 @@ snapshots:
       '@arcanis/slice-ansi': 1.1.1
       '@types/semver': 7.5.8
       '@types/treeify': 1.0.3
-      '@yarnpkg/fslib': 3.0.2
-      '@yarnpkg/libzip': 3.0.1(@yarnpkg/fslib@3.0.2)
+      '@yarnpkg/fslib': 3.1.0
+      '@yarnpkg/libzip': 3.1.0(@yarnpkg/fslib@3.1.0)
       '@yarnpkg/parsers': 3.0.0
       '@yarnpkg/shell': 4.0.2(typanion@3.14.0)
       camelcase: 5.3.1
@@ -4985,14 +4985,14 @@ snapshots:
     transitivePeerDependencies:
       - typanion
 
-  '@yarnpkg/fslib@3.0.2':
+  '@yarnpkg/fslib@3.1.0':
     dependencies:
       tslib: 2.6.2
 
-  '@yarnpkg/libzip@3.0.1(@yarnpkg/fslib@3.0.2)':
+  '@yarnpkg/libzip@3.1.0(@yarnpkg/fslib@3.1.0)':
     dependencies:
       '@types/emscripten': 1.39.11
-      '@yarnpkg/fslib': 3.0.2
+      '@yarnpkg/fslib': 3.1.0
       tslib: 2.6.2
 
   '@yarnpkg/parsers@3.0.0':
@@ -5007,7 +5007,7 @@ snapshots:
 
   '@yarnpkg/shell@4.0.2(typanion@3.14.0)':
     dependencies:
-      '@yarnpkg/fslib': 3.0.2
+      '@yarnpkg/fslib': 3.1.0
       '@yarnpkg/parsers': 3.0.2
       chalk: 3.0.0
       clipanion: 4.0.0-rc.3(typanion@3.14.0)
@@ -6769,7 +6769,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.351.1(@aws-sdk/client-sso-oidc@3.569.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.569.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@37.351.2(@aws-sdk/client-sso-oidc@3.569.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.569.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.565.0(@aws-sdk/client-sso-oidc@3.569.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.569.0))
       '@aws-sdk/client-ec2': 3.565.0(@aws-sdk/client-sso-oidc@3.569.0)(@aws-sdk/client-sts@3.565.0(@aws-sdk/client-sso-oidc@3.569.0))
