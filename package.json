@@ -9,7 +9,7 @@
     "prepare": "pnpm run test"
   },
   "devDependencies": {
-    "renovate": "^38.0.0"
+    "renovate": "^39.0.0"
   },
   "packageManager": "pnpm@9.12.3"
 }
