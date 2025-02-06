@@ -22,7 +22,7 @@ jobs:
       with:
         cache: pnpm
         cache-dependency-path: pnpm-lock.yaml
-        node-version: 20
+        node-version: 22
 
     - name: Install dependencies
       if: steps.cache.outputs.cache-hit != 'true'
