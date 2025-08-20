@@ -10,7 +10,7 @@ importers:
     devDependencies:
       renovate:
         specifier: ^41.0.0
-        version: 41.81.5(encoding@0.1.13)(typanion@3.14.0)
+        version: 41.82.1(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -1129,8 +1129,8 @@ packages:
     engines: {node: '>=6.9.0'}
     hasBin: true
 
-  core-js-pure@3.45.0:
-    resolution: {integrity: sha512-OtwjqcDpY2X/eIIg1ol/n0y/X8A9foliaNt1dSK0gV3J2/zw+89FcNG3mPK+N8YWts4ZFUPxnrAzsxs/lf8yDA==}
+  core-js-pure@3.45.1:
+    resolution: {integrity: sha512-OHnWFKgTUshEU8MK+lOs1H8kC8GkTi9Z1tvNkxrCcw9wl3MJIO7q2ld77wjWn4/xuGrVu2X+nME1iIIPBSdyEQ==}
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
@@ -2208,8 +2208,8 @@ packages:
     resolution: {integrity: sha512-dRB78srN/l6gqWulah9SrxeYnxeddIG30+GOqK/9OlLVyLg3HPnr6SqOWTWOXKRwC2eGYCkZ59NNuSgvSrpgOA==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  node-gyp@11.3.0:
-    resolution: {integrity: sha512-9J0+C+2nt3WFuui/mC46z2XCZ21/cKlFDuywULmseD/LlmnOrSeEAE4c/1jw6aybXLmpZnQY3/LmOJfgyHIcng==}
+  node-gyp@11.4.1:
+    resolution: {integrity: sha512-GiVxQ1e4TdZSSVmFDYUn6uUsrEUP68pa8C/xBzCfL/FcLHa4reWrxxTP7tRGhNdviYrNsL5kRolBL5LNYEutCw==}
     engines: {node: ^18.17.0 || >=20.5.0}
     hasBin: true
 
@@ -2481,8 +2481,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.81.5:
-    resolution: {integrity: sha512-5i+6Qm0/FyMR2+SLTfJsu1Q9QhBCr0AbMPef3L6M7yUG+OudEYiaOmPgKypjveYZ62JnEkUl8kd9x+Hwu7GDEA==}
+  renovate@41.82.1:
+    resolution: {integrity: sha512-x825jE9Cw6iuovnTHSxvIoATvqmSf6R8b6gDHMN11PAiujQ4K6YKa52FYfqokB+rbg9k/JewfljBs0gOS+8Kww==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3819,7 +3819,7 @@ snapshots:
 
   '@babel/runtime-corejs3@7.28.3':
     dependencies:
-      core-js-pure: 3.45.0
+      core-js-pure: 3.45.1
 
   '@baszalmstra/rattler@0.2.1': {}
 
@@ -4940,7 +4940,7 @@ snapshots:
       meow: 7.1.1
       through2-concurrent: 2.0.0
 
-  core-js-pure@3.45.0: {}
+  core-js-pure@3.45.1: {}
 
   core-util-is@1.0.3: {}
 
@@ -6240,7 +6240,7 @@ snapshots:
       fetch-blob: 3.2.0
       formdata-polyfill: 4.0.10
 
-  node-gyp@11.3.0:
+  node-gyp@11.4.1:
     dependencies:
       env-paths: 2.2.1
       exponential-backoff: 3.1.2
@@ -6481,7 +6481,7 @@ snapshots:
     dependencies:
       install-artifact-from-github: 1.4.0
       nan: 2.23.0
-      node-gyp: 11.3.0
+      node-gyp: 11.4.1
     transitivePeerDependencies:
       - supports-color
     optional: true
@@ -6578,7 +6578,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.81.5(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.82.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.858.0
       '@aws-sdk/client-ec2': 3.858.0
