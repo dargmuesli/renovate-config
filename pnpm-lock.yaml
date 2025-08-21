@@ -10,7 +10,7 @@ importers:
     devDependencies:
       renovate:
         specifier: ^41.0.0
-        version: 41.82.1(encoding@0.1.13)(typanion@3.14.0)
+        version: 41.82.3(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -192,8 +192,8 @@ packages:
     resolution: {integrity: sha512-VB1PWyI1TQPiPvg4w7tgUGGQER1xxXPNUqfh3baxUSFi1Oh8wHrDnFywkxLm3NMmgDmnLnSZ5Q326qAoyqKLSg==}
     engines: {node: '>=18.0.0'}
 
-  '@aws-sdk/util-locate-window@3.804.0':
-    resolution: {integrity: sha512-zVoRfpmBVPodYlnMjgVjfGoEZagyRF5IPn3Uo6ZvOZp24chnW/FRstH7ESDHDDRga4z3V+ElUQHKpFDXWyBW5A==}
+  '@aws-sdk/util-locate-window@3.873.0':
+    resolution: {integrity: sha512-xcVhZF6svjM5Rj89T1WzkjQmrTF6dpR2UvIHPMTnSZoNe6CixejPZ6f0JJ2kAhO8H+dUHwNBlsUgOTIKiK/Syg==}
     engines: {node: '>=18.0.0'}
 
   '@aws-sdk/util-user-agent-browser@3.840.0':
@@ -2481,8 +2481,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.82.1:
-    resolution: {integrity: sha512-x825jE9Cw6iuovnTHSxvIoATvqmSf6R8b6gDHMN11PAiujQ4K6YKa52FYfqokB+rbg9k/JewfljBs0gOS+8Kww==}
+  renovate@41.82.3:
+    resolution: {integrity: sha512-iOf9oblatjelV7WSd2UKvGmaCWtVQbNFdmcRpZffdeRMPsi3t7jfuh+AJ9SWG/48CZbsCUJ4wZBr5tZTqhlfVg==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3022,7 +3022,7 @@ snapshots:
       '@aws-crypto/supports-web-crypto': 5.2.0
       '@aws-crypto/util': 5.2.0
       '@aws-sdk/types': 3.840.0
-      '@aws-sdk/util-locate-window': 3.804.0
+      '@aws-sdk/util-locate-window': 3.873.0
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
 
@@ -3032,7 +3032,7 @@ snapshots:
       '@aws-crypto/supports-web-crypto': 5.2.0
       '@aws-crypto/util': 5.2.0
       '@aws-sdk/types': 3.840.0
-      '@aws-sdk/util-locate-window': 3.804.0
+      '@aws-sdk/util-locate-window': 3.873.0
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
 
@@ -3785,7 +3785,7 @@ snapshots:
       '@smithy/types': 4.3.2
       tslib: 2.8.1
 
-  '@aws-sdk/util-locate-window@3.804.0':
+  '@aws-sdk/util-locate-window@3.873.0':
     dependencies:
       tslib: 2.8.1
 
@@ -6578,7 +6578,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.82.1(encoding@0.1.13)(typanion@3.14.0):
+  renovate@41.82.3(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.858.0
       '@aws-sdk/client-ec2': 3.858.0
