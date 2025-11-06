@@ -11,6 +11,7 @@
   "extends": [
     "config:recommended",
     "group:allNonMajor",
+    "helpers:pinGitHubActionDigests",
     ":disableDependencyDashboard",
     ":pinDevDependencies",
     ":semanticCommits",
