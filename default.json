@@ -46,6 +46,13 @@
         "mcr.microsoft.com/playwright",
         "playwright-core"
       ]
+    },
+    {
+      "groupName": "@dargmuesli/nuxt-vio",
+      "matchPackageNames": [
+        "@dargmuesli/nuxt-vio",
+        "@dargmuesli/nuxt-vio-testing"
+      ]
     }
   ],
   "printConfig": true,
