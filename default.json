@@ -3,14 +3,9 @@
   "automerge": true,
   "automergeType": "branch",
   "configMigration": true,
-  "docker": {
-    "major": {
-      "enabled": true
-    }
-  },
   "docker-compose": {
-    "fileMatch": [
-      "^src/(development/stack|production/production)\\.ya?ml$"
+    "managerFilePatterns": [
+      "/^src/(development/stack|production/production)\\.ya?ml$/"
     ]
   },
   "extends": [
@@ -34,6 +29,14 @@
   },
   "packageRules": [
     {
+      "matchCategories": [
+        "docker"
+      ],
+      "major": {
+        "enabled": true
+      }
+    },
+    {
       "matchDepTypes": [
         "dependencies"
       ],
@@ -56,12 +59,13 @@
     }
   ],
   "printConfig": true,
-  "regexManagers": [
+  "customManagers": [
     {
+      "customType": "regex",
       "datasourceTemplate": "node",
       "depNameTemplate": "node",
-      "fileMatch": [
-        "^Dockerfile$"
+      "managerFilePatterns": [
+        "/^Dockerfile$/"
       ],
       "matchStrings": [
         "FROM node:(?<currentValue>.*?)-(alpine|slim)\\n"
