@@ -5,7 +5,7 @@
   "license": "MIT",
   "homepage": "https://github.com/dargmuesli/renovate",
   "scripts": {
-    "test": "renovate-config-validator default.json",
+    "test": "renovate-config-validator --strict default.json",
     "prepare": "pnpm run test"
   },
   "devDependencies": {
