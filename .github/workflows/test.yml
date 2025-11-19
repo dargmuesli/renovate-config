@@ -9,7 +9,7 @@ on:
 jobs:
   ci-optimization:
     name: CI optimization
-    uses: dargmuesli/github-actions/.github/workflows/ci-optimization.yml@714a68188444d710ffa3e9f35a05f6a9d420931d # 3.2.0
+    uses: dargmuesli/github-actions/.github/workflows/ci-optimization.yml@d6dda211541b8c8c8088762ff8f4a1c4d32f047c # 3.2.1
     permissions:
       pull-requests: read
   test:
@@ -21,7 +21,7 @@ jobs:
       contents: read
     steps:
     - name: Checkout git repository
-      uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+      uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
 
     - name: Setup package manager
       run: corepack enable
