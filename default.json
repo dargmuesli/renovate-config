@@ -22,9 +22,6 @@
     "enabled": true
   },
   "ignorePresets": [":ignoreModulesAndTests"],
-  "lockFileMaintenance": {
-    "enabled": true
-  },
   "major": {
     "automerge": false
   },
