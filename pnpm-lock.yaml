@@ -10,7 +10,7 @@ importers:
     devDependencies:
       renovate:
         specifier: ^43.0.0
-        version: 43.15.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 43.15.1(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -2428,8 +2428,8 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  qs@6.14.2:
-    resolution: {integrity: sha512-V/yCWTTF7VJ9hIh18Ugr2zhJMP01MY7c5kh4J870L7imm6/DIzBsNLTXzMwUA3yZ5b/KBqLx8Kp3uRvd7xSe3Q==}
+  qs@6.15.0:
+    resolution: {integrity: sha512-mAZTtNCeetKMH+pSjrb76NAM8V9a05I9aBZOHztWy/UqcJdQYNsf59vrRKWnojAT9Y+GbIvoTBC++CPHqpDBhQ==}
     engines: {node: '>=0.6'}
 
   queue-microtask@1.2.3:
@@ -2492,8 +2492,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.15.0:
-    resolution: {integrity: sha512-1jXefF0Z1wfZNumlR3ENFZYcwu2hJ7kBBR6x9mkJmK8Q1U5K1iK38wPGr5YOb3j8zHdIZ0GIHxIKi2XUN0MzpQ==}
+  renovate@43.15.1:
+    resolution: {integrity: sha512-J0QHp2iOKQ8vhz5z0cWK6ZxygThcw9yBT0Bdl+ALVL4e0LivqIlSEk7dNGYQ+D+d9gUQpgNTvVkkJtbZgrqdFw==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -6491,7 +6491,7 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  qs@6.14.2:
+  qs@6.15.0:
     dependencies:
       side-channel: 1.1.0
 
@@ -6609,7 +6609,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.15.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@43.15.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.980.0
       '@aws-sdk/client-ec2': 3.980.0
@@ -7097,7 +7097,7 @@ snapshots:
     dependencies:
       des.js: 1.1.0
       js-md4: 0.3.2
-      qs: 6.14.2
+      qs: 6.15.0
       tunnel: 0.0.6
       underscore: 1.13.7
 
