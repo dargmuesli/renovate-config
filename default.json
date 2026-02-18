@@ -2,18 +2,15 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "automerge": true,
   "automergeType": "branch",
-  "configMigration": true,
   "docker-compose": {
     "managerFilePatterns": [
       "/^src/(development/stack|production/production)\\.ya?ml$/"
     ]
   },
   "extends": [
-    "config:recommended",
+    "config:best-practices",
     "group:allNonMajor",
-    "helpers:pinGitHubActionDigests",
     ":disableDependencyDashboard",
-    ":pinDevDependencies",
     ":semanticCommits",
     ":semanticCommitTypeAll(chore)",
     ":widenPeerDependencies"
@@ -21,7 +18,10 @@
   "git-submodules": {
     "enabled": true
   },
-  "ignorePresets": [":ignoreModulesAndTests"],
+  "ignorePresets": [
+    "docker:pinDigests",
+    ":ignoreModulesAndTests"
+  ],
   "major": {
     "automerge": false
   },
