@@ -2,6 +2,16 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "automerge": true,
   "automergeType": "branch",
+  "customManagers": [
+    {
+      "customType": "regex",
+      "datasourceTemplate": "node",
+      "depNameTemplate": "node",
+      "managerFilePatterns": ["/^Dockerfile$/"],
+      "matchStrings": ["FROM node:(?<currentValue>.*?)-(alpine|slim)\\n"],
+      "versioningTemplate": "node"
+    }
+  ],
   "docker-compose": {
     "managerFilePatterns": [
       "/^src/(development/stack|production/production)\\.ya?ml$/"
@@ -18,26 +28,19 @@
   "git-submodules": {
     "enabled": true
   },
-  "ignorePresets": [
-    "docker:pinDigests",
-    ":ignoreModulesAndTests"
-  ],
+  "ignorePresets": ["docker:pinDigests", ":ignoreModulesAndTests"],
   "major": {
     "automerge": false
   },
   "packageRules": [
     {
-      "matchCategories": [
-        "docker"
-      ],
       "major": {
         "enabled": true
-      }
+      },
+      "matchCategories": ["docker"]
     },
     {
-      "matchDepTypes": [
-        "dependencies"
-      ],
+      "matchDepTypes": ["dependencies"],
       "rangeStrategy": "update-lockfile"
     },
     {
@@ -56,19 +59,5 @@
       ]
     }
   ],
-  "printConfig": true,
-  "customManagers": [
-    {
-      "customType": "regex",
-      "datasourceTemplate": "node",
-      "depNameTemplate": "node",
-      "managerFilePatterns": [
-        "/^Dockerfile$/"
-      ],
-      "matchStrings": [
-        "FROM node:(?<currentValue>.*?)-(alpine|slim)\\n"
-      ],
-      "versioningTemplate": "node"
-    }
-  ]
+  "printConfig": true
 }
