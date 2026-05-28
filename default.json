@@ -40,6 +40,11 @@
       "matchCategories": ["docker"]
     },
     {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["ghcr.io/observabilitystack/geoip-api"],
+      "versioning": "regex:^(?<minor>\\d{4}-\\d{2})$"
+    },
+    {
       "matchDepTypes": ["dependencies"],
       "rangeStrategy": "update-lockfile"
     },
