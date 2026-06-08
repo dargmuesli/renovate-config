@@ -6,7 +6,7 @@
   "homepage": "https://github.com/dargmuesli/renovate",
   "license": "MIT",
   "name": "@dargmuesli/renovate-config",
-  "packageManager": "pnpm@11.5.1",
+  "packageManager": "pnpm@11.5.2",
   "scripts": {
     "prepare": "pnpm run test",
     "test": "renovate-config-validator --strict default.json"
