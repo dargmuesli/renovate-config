@@ -15,43 +15,40 @@
       "customType": "regex",
       "datasourceTemplate": "deb",
       "managerFilePatterns": [
-        "/\\.github/workflows/.*\\.ya?ml$/"
+        "/\\.github/workflows/.*\\.ya?ml$/",
+        "/^Dockerfile$/"
       ],
       "matchStrings": [
-        "#\\s+renovate:\\s+datasource=deb\\s+depName=(?<depName>\\S+)\\s+suite=(?<suite>\\S+)\\s+\\w+_\\w+:\\s+(?<currentValue>[^\\n]+)"
+        "#\\s+renovate:\\s+datasource=deb(?:\\s+distro=(?<distro>\\S+))?\\s+depName=(?<depName>\\S+)\\s+suite=(?<suite>\\S+)\\s+\\w+_\\w+:\\s+(?<currentValue>[^\\n]+)",
+        "#\\s+renovate:\\s+datasource=deb(?:\\s+distro=(?<distro>\\S+))?\\s+depName=(?<depName>\\S+)\\s+suite=(?<suite>\\S+)\\s+ENV\\s+\\S+_VERSION=\"(?<currentValue>[^\"]+)\""
       ],
-      "registryUrlTemplate": "https://archive.ubuntu.com/ubuntu?suite={{#if suite }}{{suite}}{{else}}noble{{/if}}&components=main,multiverse,restricted,universe&binaryArch=amd64"
+      "registryUrlTemplate": "https://{{#if (eq distro 'ubuntu')}}archive.ubuntu.com/ubuntu{{else}}deb.debian.org/debian{{/if}}?suite={{suite}}&components=main,multiverse,restricted,universe&binaryArch=amd64"
     },
     {
       "customType": "regex",
       "datasourceTemplate": "deb",
       "managerFilePatterns": [
-        "/\\.github/workflows/.*\\.ya?ml$/"
+        "/\\.github/workflows/.*\\.ya?ml$/",
+        "/^Dockerfile$/"
       ],
       "matchStrings": [
-        "#\\s+renovate:\\s+datasource=deb\\s+depName=(?<depName>\\S+)\\s+suite=(?<suite>\\S+)\\s+\\w+_\\w+:\\s+(?<currentValue>[^\\n]+)"
+        "#\\s+renovate:\\s+datasource=deb(?:\\s+distro=(?<distro>\\S+))?\\s+depName=(?<depName>\\S+)\\s+suite=(?<suite>\\S+)\\s+\\w+_\\w+:\\s+(?<currentValue>[^\\n]+)",
+        "#\\s+renovate:\\s+datasource=deb(?:\\s+distro=(?<distro>\\S+))?\\s+depName=(?<depName>\\S+)\\s+suite=(?<suite>\\S+)\\s+ENV\\s+\\S+_VERSION=\"(?<currentValue>[^\"]+)\""
       ],
-      "registryUrlTemplate": "https://archive.ubuntu.com/ubuntu?suite={{#if suite }}{{suite}}-updates{{else}}noble-updates{{/if}}&components=main,multiverse,restricted,universe&binaryArch=amd64"
+      "registryUrlTemplate": "https://{{#if (eq distro 'ubuntu')}}archive.ubuntu.com/ubuntu{{else}}deb.debian.org/debian{{/if}}?suite={{suite}}-updates&components=main,multiverse,restricted,universe&binaryArch=amd64"
     },
     {
       "customType": "regex",
       "datasourceTemplate": "deb",
       "managerFilePatterns": [
-        "/\\.github/workflows/.*\\.ya?ml$/"
+        "/\\.github/workflows/.*\\.ya?ml$/",
+        "/^Dockerfile$/"
       ],
       "matchStrings": [
-        "#\\s+renovate:\\s+datasource=deb\\s+depName=(?<depName>\\S+)\\s+suite=(?<suite>\\S+)\\s+\\w+_\\w+:\\s+(?<currentValue>[^\\n]+)"
+        "#\\s+renovate:\\s+datasource=deb(?:\\s+distro=(?<distro>\\S+))?\\s+depName=(?<depName>\\S+)\\s+suite=(?<suite>\\S+)\\s+\\w+_\\w+:\\s+(?<currentValue>[^\\n]+)",
+        "#\\s+renovate:\\s+datasource=deb(?:\\s+distro=(?<distro>\\S+))?\\s+depName=(?<depName>\\S+)\\s+suite=(?<suite>\\S+)\\s+ENV\\s+\\S+_VERSION=\"(?<currentValue>[^\"]+)\""
       ],
-      "registryUrlTemplate": "https://security.ubuntu.com/ubuntu?suite={{#if suite }}{{suite}}-security{{else}}noble-security{{/if}}&components=main,multiverse,restricted,universe&binaryArch=amd64"
-    },
-    {
-      "customType": "regex",
-      "datasourceTemplate": "deb",
-      "managerFilePatterns": ["/^Dockerfile$/"],
-      "matchStrings": [
-        "#\\s*renovate:\\s*?(suite=(?<suite>.*?))?\\s*depName=(?<depName>.*?)?\\sENV .*?_VERSION=\"(?<currentValue>.*)\""
-      ],
-      "registryUrlTemplate": "https://deb.debian.org/debian?suite={{#if suite }}{{suite}}{{else}}stable{{/if}}&components=main,contrib,non-free&binaryArch=amd64"
+      "registryUrlTemplate": "https://{{#if (eq distro 'ubuntu')}}security.ubuntu.com/ubuntu{{else}}security.debian.org/debian-security{{/if}}?suite={{suite}}-security&components=main,multiverse,restricted,universe&binaryArch=amd64"
     }
   ],
   "docker-compose": {
