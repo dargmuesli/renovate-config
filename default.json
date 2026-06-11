@@ -19,10 +19,10 @@
         "/^Dockerfile$/"
       ],
       "matchStrings": [
-        "#\\s+renovate:\\s+datasource=deb(?:\\s+distro=(?<distro>\\S+))?\\s+depName=(?<depName>\\S+)\\s+suite=(?<suite>\\S+)\\s+\\w+_\\w+:\\s+(?<currentValue>[^\\n]+)",
+        "#\\s+renovate:\\s+datasource=deb(?:\\s+distro=(?<distro>\\S+))?\\s+depName=(?<depName>\\S+)\\s+suite=(?<suite>\\S+)\\s+APT_\\w+:\\s+(?<currentValue>[^\\n]+)",
         "#\\s+renovate:\\s+datasource=deb(?:\\s+distro=(?<distro>\\S+))?\\s+depName=(?<depName>\\S+)\\s+suite=(?<suite>\\S+)\\s+ENV\\s+\\S+_VERSION=\"(?<currentValue>[^\"]+)\""
       ],
-      "registryUrlTemplate": "https://{{#if (eq distro 'ubuntu')}}archive.ubuntu.com/ubuntu{{else}}deb.debian.org/debian{{/if}}?suite={{suite}}&components=main,multiverse,restricted,universe&binaryArch=amd64"
+      "registryUrlTemplate": "https://{{#if (equals distro 'ubuntu')}}archive.ubuntu.com/ubuntu{{else}}deb.debian.org/debian{{/if}}?suite={{suite}}&components=main,{{#if (equals distro 'ubuntu')}}multiverse,restricted,universe{{else}}contrib,non-free{{/if}}&binaryArch=amd64"
     },
     {
       "customType": "regex",
@@ -32,10 +32,10 @@
         "/^Dockerfile$/"
       ],
       "matchStrings": [
-        "#\\s+renovate:\\s+datasource=deb(?:\\s+distro=(?<distro>\\S+))?\\s+depName=(?<depName>\\S+)\\s+suite=(?<suite>\\S+)\\s+\\w+_\\w+:\\s+(?<currentValue>[^\\n]+)",
+        "#\\s+renovate:\\s+datasource=deb(?:\\s+distro=(?<distro>\\S+))?\\s+depName=(?<depName>\\S+)\\s+suite=(?<suite>\\S+)\\s+APT_\\w+:\\s+(?<currentValue>[^\\n]+)",
         "#\\s+renovate:\\s+datasource=deb(?:\\s+distro=(?<distro>\\S+))?\\s+depName=(?<depName>\\S+)\\s+suite=(?<suite>\\S+)\\s+ENV\\s+\\S+_VERSION=\"(?<currentValue>[^\"]+)\""
       ],
-      "registryUrlTemplate": "https://{{#if (eq distro 'ubuntu')}}archive.ubuntu.com/ubuntu{{else}}deb.debian.org/debian{{/if}}?suite={{suite}}-updates&components=main,multiverse,restricted,universe&binaryArch=amd64"
+      "registryUrlTemplate": "https://{{#if (equals distro 'ubuntu')}}archive.ubuntu.com/ubuntu{{else}}deb.debian.org/debian{{/if}}?suite={{suite}}-updates&components=main,{{#if (equals distro 'ubuntu')}}multiverse,restricted,universe{{else}}contrib,non-free{{/if}}&binaryArch=amd64"
     },
     {
       "customType": "regex",
@@ -45,10 +45,10 @@
         "/^Dockerfile$/"
       ],
       "matchStrings": [
-        "#\\s+renovate:\\s+datasource=deb(?:\\s+distro=(?<distro>\\S+))?\\s+depName=(?<depName>\\S+)\\s+suite=(?<suite>\\S+)\\s+\\w+_\\w+:\\s+(?<currentValue>[^\\n]+)",
+        "#\\s+renovate:\\s+datasource=deb(?:\\s+distro=(?<distro>\\S+))?\\s+depName=(?<depName>\\S+)\\s+suite=(?<suite>\\S+)\\s+APT_\\w+:\\s+(?<currentValue>[^\\n]+)",
         "#\\s+renovate:\\s+datasource=deb(?:\\s+distro=(?<distro>\\S+))?\\s+depName=(?<depName>\\S+)\\s+suite=(?<suite>\\S+)\\s+ENV\\s+\\S+_VERSION=\"(?<currentValue>[^\"]+)\""
       ],
-      "registryUrlTemplate": "https://{{#if (eq distro 'ubuntu')}}security.ubuntu.com/ubuntu{{else}}security.debian.org/debian-security{{/if}}?suite={{suite}}-security&components=main,multiverse,restricted,universe&binaryArch=amd64"
+      "registryUrlTemplate": "https://{{#if (equals distro 'ubuntu')}}security.ubuntu.com/ubuntu{{else}}security.debian.org/debian-security{{/if}}?suite={{suite}}-security&components=main,{{#if (equals distro 'ubuntu')}}multiverse,restricted,universe{{else}}contrib,non-free{{/if}}&binaryArch=amd64"
     }
   ],
   "docker-compose": {
