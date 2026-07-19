@@ -1,7 +1,7 @@
 {
   "description": "Preset for Renovate",
   "devDependencies": {
-    "renovate": "^43.0.0"
+    "renovate": "^43.270.0"
   },
   "homepage": "https://github.com/dargmuesli/renovate",
   "license": "MIT",
