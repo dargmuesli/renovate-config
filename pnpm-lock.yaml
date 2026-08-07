@@ -10,7 +10,7 @@ importers:
     devDependencies:
       renovate:
         specifier: ^44.0.0
-        version: 44.7.2(supports-color@7.2.0)(typanion@3.14.0)
+        version: 44.11.4(supports-color@7.2.0)(typanion@3.14.0)
 
 packages:
 
@@ -774,8 +774,8 @@ packages:
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
-  core-js-pure@3.49.0:
-    resolution: {integrity: sha512-XM4RFka59xATyJv/cS3O3Kml72hQXUeGRuuTmMYFxwzc9/7C8OYTaIR/Ji+Yt8DXzsFLNhat15cE/JP15HrCgw==}
+  core-js-pure@3.50.0:
+    resolution: {integrity: sha512-6GP3Pxz4IKyWjAfa747vIu/jilB5z29JWROLqH/b+pXVcpgh6tM06ZIBwSuglgVqzDYURhOK6oEzTrG0bCHitA==}
 
   croner@10.0.1:
     resolution: {integrity: sha512-ixNtAJndqh173VQ4KodSdJEI6nuioBWI0V1ITNKhZZsO0pEMoDxz539T4FTTbSZ/xIOSuDnzxLVRqBVSvPNE2g==}
@@ -1556,10 +1556,6 @@ packages:
   minimalistic-assert@1.0.1:
     resolution: {integrity: sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==}
 
-  minimatch@10.2.5:
-    resolution: {integrity: sha512-MULkVLfKGYDFYejP07QOurDLLQpcjk7Fw+7jXS2R2czRQzR56yHRveU5NDJEOviH+hETZKSkIk5c+T23GjFUMg==}
-    engines: {node: 18 || 20 || >=22}
-
   minimatch@10.2.6:
     resolution: {integrity: sha512-vpLQEs+VLCr1nU0BXS07maYoFwlDAH0gngQuuttxIwutDFEMHq2blX+8vpgxDdK3J1PwjCJiep77OitTZ4Ll1A==}
     engines: {node: 18 || 20 || >=22}
@@ -1858,8 +1854,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.7.2:
-    resolution: {integrity: sha512-HoDYxGEOIbBZUaS55HLyHamymcTEt8ZsfHYy1gwaksr3W7KeOASlRSiTjM6D1Gb3THJJSh3NGqnFjOvhSZG0Aw==}
+  renovate@44.11.4:
+    resolution: {integrity: sha512-umC5ecFLRPK+Or8n6zdynryUI4J0KxjXxpfYsKWFPtryf7bp8TIN5vMps8i5L5bAgP5lRh9KXufekvJkVVcrUw==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -2512,7 +2508,7 @@ snapshots:
 
   '@babel/runtime-corejs3@7.29.7':
     dependencies:
-      core-js-pure: 3.49.0
+      core-js-pure: 3.50.0
 
   '@baszalmstra/rattler@0.2.1': {}
 
@@ -3218,7 +3214,7 @@ snapshots:
   concat-map@0.0.1:
     optional: true
 
-  core-js-pure@3.49.0: {}
+  core-js-pure@3.50.0: {}
 
   croner@10.0.1: {}
 
@@ -4194,10 +4190,6 @@ snapshots:
 
   minimalistic-assert@1.0.1: {}
 
-  minimatch@10.2.5:
-    dependencies:
-      brace-expansion: 5.0.9
-
   minimatch@10.2.6:
     dependencies:
       brace-expansion: 5.0.9
@@ -4497,7 +4489,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.7.2(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@44.11.4(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1095.0
       '@aws-sdk/client-ec2': 3.1095.0
@@ -4583,7 +4575,7 @@ snapshots:
       luxon: 3.7.2
       markdown-it: 14.3.0
       markdown-table: 3.0.4
-      minimatch: 10.2.5
+      minimatch: 10.2.6
       moo: 0.5.3
       ms: 2.1.3
       neotraverse: 0.6.18
