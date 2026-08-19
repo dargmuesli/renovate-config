@@ -1,10 +1,15 @@
-name: Test
+name: CI
 
 permissions: {}
 
 on:
-  push:
   pull_request:
+  push:
+    branches:
+      - alpha
+      - beta
+      - main
+      - renovate/**
 
 jobs:
   ci-optimization:
@@ -38,3 +43,14 @@ jobs:
     - name: Test
       run: |
         pnpm test
+  release_semantic:
+    needs: test
+    name: Release (semantic)
+    uses: dargmuesli/github-actions/.github/workflows/release-semantic.yml@e9c9cf391baeb261cf62c0af6c4af2245bae0662 # 5.9.2
+    permissions:
+      contents: write
+      id-token: write
+    secrets:
+      GH_APP_PRIVATE_KEY: ${{ secrets.GH_APP_PRIVATE_KEY }}
+    with:
+      GH_APP_ID: ${{ vars.GH_APP_ID }}
