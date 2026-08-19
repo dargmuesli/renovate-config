@@ -51,11 +51,6 @@
       "registryUrlTemplate": "https://{{#if (equals distro 'ubuntu')}}security.ubuntu.com/ubuntu{{else}}security.debian.org/debian-security{{/if}}?suite={{suite}}-security&components=main,{{#if (equals distro 'ubuntu')}}multiverse,restricted,universe{{else}}contrib,non-free{{/if}}&binaryArch=amd64"
     }
   ],
-  "docker-compose": {
-    "managerFilePatterns": [
-      "/^src/(development/stack|production/production)\\.ya?ml$/"
-    ]
-  },
   "extends": [
     "config:best-practices",
     "group:allNonMajor",
