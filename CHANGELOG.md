@@ -1,0 +1,35 @@
+## 1.0.0 (2026-08-19)
+
+### Features
+
+* **actions:** pin digests ([d9d987d](https://github.com/dargmuesli/renovate-config/commit/d9d987dec147916463044cf1ad80da686b3e0ed4))
+* add @dargmuesli/nuxt-vio group ([2a63dae](https://github.com/dargmuesli/renovate-config/commit/2a63daeeca4e9abcbbea55c0dc4c8007079b059a))
+* **custom-managers:** support distros ([539f576](https://github.com/dargmuesli/renovate-config/commit/539f576be66ca1c377884e512578510f71e6289c))
+* **custom-managers:** support pinned apt install for actions and Docker ([22facdc](https://github.com/dargmuesli/renovate-config/commit/22facdc0eba345d932d14081881c4604df93248a))
+* disable dependency dashboard ([70e6e39](https://github.com/dargmuesli/renovate-config/commit/70e6e391809d067cb0e913054ba1e111915cc0d0))
+* distinguish updates by dependency type ([bdb90b5](https://github.com/dargmuesli/renovate-config/commit/bdb90b574158f1dfbea08e40393c0795b17f735f))
+* do not ignore test directories ([960ec59](https://github.com/dargmuesli/renovate-config/commit/960ec598d36f4428ebdf39a773d1546ee0e6b23e))
+* **docker:** do not pin digests ([8918c80](https://github.com/dargmuesli/renovate-config/commit/8918c8006b7fac616a369ad573627453518e5784))
+* enable configuration migration ([179ee49](https://github.com/dargmuesli/renovate-config/commit/179ee493d0b6557ab48d5949c68603a335a628b1))
+* extend best practices preset ([201c366](https://github.com/dargmuesli/renovate-config/commit/201c3663ca92895b659d1272124b24e6c9ff5bdd))
+* extend playwright monorepo ([a6d9f13](https://github.com/dargmuesli/renovate-config/commit/a6d9f13c055c04e41308421d1514550d6da0c93c))
+* group all non-major ([35f93a6](https://github.com/dargmuesli/renovate-config/commit/35f93a632e7c853f515f715d5b773a477368cc7b))
+* group and schedule ([f6b041f](https://github.com/dargmuesli/renovate-config/commit/f6b041f77dbfd61a4526e2039e54647022a5b9b0))
+* **package-rules:** set ghcr.io/observabilitystack/geoip-api versioning ([cd57026](https://github.com/dargmuesli/renovate-config/commit/cd57026656229bf2abe9ee0b166811ed44ec30d2))
+* remove grouping and schedule ([ec74a21](https://github.com/dargmuesli/renovate-config/commit/ec74a21a3b4be32ac6e6439079152cc3a4797c72))
+* **renovate:** add default configuration ([1036122](https://github.com/dargmuesli/renovate-config/commit/103612213c8b1e6eb197c770856bb0d18b697213))
+* schedule daily ([2e7a2a4](https://github.com/dargmuesli/renovate-config/commit/2e7a2a4c1dddf9a2042d823de7fd6a9f1fb0d2c6))
+
+### Bug Fixes
+
+* **ci:** create releases via semantic-release ([870f3ee](https://github.com/dargmuesli/renovate-config/commit/870f3eeba1dc287d7c0c88750ef72e45b202711d))
+* **custom-managers:** correct debian components ([12dd7bb](https://github.com/dargmuesli/renovate-config/commit/12dd7bb98aedeb70e56fa10fda36b00230de643f))
+* **docker-compose:** simplify file match regular expression ([506ccd7](https://github.com/dargmuesli/renovate-config/commit/506ccd7d241881418a34272c0bca9ec1903764bc))
+* **docker:** do not pin digests ([db8eec6](https://github.com/dargmuesli/renovate-config/commit/db8eec6ca30af0c9918a77369b64a4f383e7b16e))
+* **package-rule:** do not extend ([fd2429c](https://github.com/dargmuesli/renovate-config/commit/fd2429c8e2d954856f246e9db334b0bf2cb04917))
+* **package-rules:** update lockfile for dependencies ([a680295](https://github.com/dargmuesli/renovate-config/commit/a68029584c74e4f7f53f22dc341567f8e970979f))
+* **playwright:** define monorepo by package names only ([a90ae0c](https://github.com/dargmuesli/renovate-config/commit/a90ae0c5b1a6ac8b31606e5e8e1ea8b724b9c213))
+* revert "chore(base-branches): add alpha and beta" ([fe82f87](https://github.com/dargmuesli/renovate-config/commit/fe82f87c6148c0e8f4ea029b63eb695e1843e204))
+* revert "feat(docker): do not pin digests" ([f849290](https://github.com/dargmuesli/renovate-config/commit/f849290d7100379982442f8edc9dcf286fdd227d))
+* revert "fix(package-rules): update lockfile for dependencies" ([c33335a](https://github.com/dargmuesli/renovate-config/commit/c33335a411006639b1ec2696da3601d2c39dbe64))
+* update node docker images to LTS only ([0324c9b](https://github.com/dargmuesli/renovate-config/commit/0324c9be8adfdf60e6ee3784a51058902a213b8e))
