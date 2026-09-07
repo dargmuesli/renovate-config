@@ -111,7 +111,7 @@ importers:
     devDependencies:
       renovate:
         specifier: ^44.0.0
-        version: 44.61.1(supports-color@7.2.0)(typanion@3.14.0)
+        version: 44.61.6(supports-color@7.2.0)(typanion@3.14.0)
 
 packages:
 
@@ -1544,8 +1544,8 @@ packages:
     resolution: {integrity: sha512-vtEhXh/gNjI9Yg1u4jX/0YVPMvxzHuGgCm6tC5kZyb08yjGWGnqAjGJvcXbqQR2P3MyMEFnRbpcdFS6PBcLqew==}
     engines: {node: '>=12'}
 
-  markdown-it@14.3.0:
-    resolution: {integrity: sha512-RCEsPjR+sr0x+AuYp601tKTkgFG4YEPLCzHST3cQ/fhlJkqAkz1L2/Qbp1j9qw5SBwQHFBoW8+hoN5xssOF0Tw==}
+  markdown-it@14.3.1:
+    resolution: {integrity: sha512-4Ej49aYTDFIQ+uBkfX8GBvJGccoARxxPep+7aWTs55ozbjQJpW9M26Fe53vnGgvLeVzva/amzjQQaQu9w0vMhA==}
     hasBin: true
 
   markdown-table@3.0.4:
@@ -1882,6 +1882,10 @@ packages:
     resolution: {integrity: sha512-I4Prw6ivkd6p8PiYR1tXASOAOBzIJwu0TB7fqaX0c/8c3QAehNYmX57EijyGGGBt3c/BIowGwV03RVBtXvHEVg==}
     engines: {node: '>=18'}
 
+  p-map@7.0.7:
+    resolution: {integrity: sha512-VaWRu2i4FJNRtiRWCuuQRgfQ1B7a6+gMSrO+3j0EQi/k0ULfS9kosRxGoiqwzIjZTDI02tGfk5mXXltLg6QtfQ==}
+    engines: {node: '>=18'}
+
   p-queue@9.3.3:
     resolution: {integrity: sha512-NXAOdnEe5FsZJfT4oK84lE1Y5cFFdWlRuOo5tww8DyNMxyRXwn39fIkUtNLKppcPC+UYU/bXujNCUGDv01y7CA==}
     engines: {node: '>=20'}
@@ -2014,8 +2018,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@44.61.1:
-    resolution: {integrity: sha512-q1UFgOCinXHHN7dfC3W1rfy/YY/k7D+ufWCarK/3mvHYwbBaijtqFFMllVFMbtzZYTh0t4cR/cWnh9z08IEgWQ==}
+  renovate@44.61.6:
+    resolution: {integrity: sha512-4g4L6rp2scv44i1KMKrDdvducrQVlG9tnzeOCDOoskkEIN+orlFM3AUjgQMfqVWe/awrNwJZVkI6ESU0wic4vA==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -4087,7 +4091,7 @@ snapshots:
 
   luxon@3.7.2: {}
 
-  markdown-it@14.3.0:
+  markdown-it@14.3.1:
     dependencies:
       argparse: 2.0.1
       entities: 4.5.0
@@ -4575,6 +4579,8 @@ snapshots:
 
   p-map@7.0.6: {}
 
+  p-map@7.0.7: {}
+
   p-queue@9.3.3:
     dependencies:
       eventemitter3: 5.0.4
@@ -4733,7 +4739,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@44.61.1(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@44.61.6(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1117.0
       '@aws-sdk/client-ec2': 3.1117.0
@@ -4819,7 +4825,7 @@ snapshots:
       klona: 2.0.6
       lru-cache: 11.5.2
       luxon: 3.7.2
-      markdown-it: 14.3.0
+      markdown-it: 14.3.1
       markdown-table: 3.0.4
       minimatch: 10.2.6
       moo: 0.5.3
@@ -4827,7 +4833,7 @@ snapshots:
       neotraverse: 0.6.18
       node-html-parser: 7.1.0
       p-all: 5.0.1
-      p-map: 7.0.6
+      p-map: 7.0.7
       p-queue: 9.3.3
       p-throttle: 8.1.0
       parse-link-header: 2.0.0
