@@ -1,3 +1,13 @@
+## [2.0.0-beta.1](https://github.com/dargmuesli/renovate-config/compare/1.0.0...2.0.0-beta.1) (2026-08-19)
+
+### ⚠ BREAKING CHANGES
+
+* **docker-compose:** use renovate default file patterns (#60)
+
+### Features
+
+* **docker-compose:** use renovate default file patterns ([#60](https://github.com/dargmuesli/renovate-config/issues/60)) ([c58fdd7](https://github.com/dargmuesli/renovate-config/commit/c58fdd7fdcfa6131dbbe491e04e4d202c2470424))
+
 ## 1.0.0 (2026-08-19)
 
 ### Features
