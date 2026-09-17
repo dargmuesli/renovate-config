@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/dargmuesli/renovate-config/compare/1.0.0...1.1.0) (2026-09-17)
+
+### Features
+
+* **renovate:** track annotated docker images in workflows ([#63](https://github.com/dargmuesli/renovate-config/issues/63)) ([913e579](https://github.com/dargmuesli/renovate-config/commit/913e5790f92fd3dcabbd430baac6877b09e303e9))
+
 ## 1.0.0 (2026-08-19)
 
 ### Features
