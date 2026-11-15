@@ -57,6 +57,14 @@
       "matchStrings": [
         "#\\s+renovate:\\s+datasource=docker\\s+depName=(?<depName>\\S+)\\s+\\S+:\\s+\"(?<currentValue>[^\"]+)\""
       ]
+    },
+    {
+      "customType": "regex",
+      "datasourceTemplate": "npm",
+      "depNameTemplate": "mcr.microsoft.com/playwright",
+      "managerFilePatterns": ["/^Dockerfile$/"],
+      "matchStrings": ["FROM mcr\\.microsoft\\.com/playwright:v(?<currentValue>\\S+)"],
+      "packageNameTemplate": "@playwright/test"
     }
   ],
   "docker-compose": {
@@ -85,6 +93,12 @@
         "enabled": true
       },
       "matchCategories": ["docker"]
+    },
+    {
+      "description": "the playwright image is tracked through its npm package by a custom manager, which applies npm's minimum release age, so the image never updates without the package",
+      "enabled": false,
+      "matchManagers": ["dockerfile"],
+      "matchPackageNames": ["mcr.microsoft.com/playwright"]
     },
     {
       "matchDatasources": ["docker"],
