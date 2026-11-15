@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/dargmuesli/renovate-config/compare/1.1.0...1.1.1) (2026-11-15)
+
+### Bug Fixes
+
+* **playwright:** track image through npm package ([#65](https://github.com/dargmuesli/renovate-config/issues/65)) ([85e2930](https://github.com/dargmuesli/renovate-config/commit/85e2930706f9e19e2963b67a272f7add93c1c685))
+
 ## [1.1.0](https://github.com/dargmuesli/renovate-config/compare/1.0.0...1.1.0) (2026-09-17)
 
 ### Features
