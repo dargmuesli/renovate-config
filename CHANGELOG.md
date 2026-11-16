@@ -1,3 +1,9 @@
+## [1.3.1](https://github.com/dargmuesli/renovate-config/compare/1.3.0...1.3.1) (2026-11-16)
+
+### Bug Fixes
+
+* **preset:** keep patches of 0.x versions on the branch of their own group ([#68](https://github.com/dargmuesli/renovate-config/issues/68)) ([fb68d0f](https://github.com/dargmuesli/renovate-config/commit/fb68d0fa6f3a1d515bbd4b849a9d12e4f3663a64))
+
 ## [1.3.0](https://github.com/dargmuesli/renovate-config/compare/1.2.0...1.3.0) (2026-11-16)
 
 ### Features
