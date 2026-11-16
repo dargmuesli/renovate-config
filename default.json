@@ -91,7 +91,7 @@
     {
       "description": "a patch of a 0.x version is offered beside its next minor",
       "group": {
-        "branchTopic": "all-minor-patch"
+        "branchTopic": "{{{replace '^patch-' '' groupSlug}}}"
       },
       "matchCurrentVersion": "/^v?0\\./",
       "separateMinorPatch": true
