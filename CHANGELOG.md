@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/dargmuesli/renovate-config/compare/1.1.1...1.2.0) (2026-11-16)
+
+### Features
+
+* **preset:** raise minors of 0.x versions as separate pull requests ([#66](https://github.com/dargmuesli/renovate-config/issues/66)) ([aaf857e](https://github.com/dargmuesli/renovate-config/commit/aaf857e6d190db89a8e356f2137c9ab56807a73f))
+
 ## [1.1.1](https://github.com/dargmuesli/renovate-config/compare/1.1.0...1.1.1) (2026-11-15)
 
 ### Bug Fixes
