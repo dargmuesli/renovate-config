@@ -89,6 +89,14 @@
   },
   "packageRules": [
     {
+      "description": "a patch of a 0.x version is offered beside its next minor",
+      "group": {
+        "branchTopic": "all-minor-patch"
+      },
+      "matchCurrentVersion": "/^v?0\\./",
+      "separateMinorPatch": true
+    },
+    {
       "automerge": false,
       "description": "a minor of a 0.x version may break, so it gets its own pull request",
       "groupName": null,
