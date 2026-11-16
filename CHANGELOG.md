@@ -1,3 +1,9 @@
+## [1.3.0](https://github.com/dargmuesli/renovate-config/compare/1.2.0...1.3.0) (2026-11-16)
+
+### Features
+
+* **preset:** keep patches of 0.x versions flowing beside their minors ([#67](https://github.com/dargmuesli/renovate-config/issues/67)) ([41e64c7](https://github.com/dargmuesli/renovate-config/commit/41e64c76cc6a6f0837eea1cc9c47f29d7f913205))
+
 ## [1.2.0](https://github.com/dargmuesli/renovate-config/compare/1.1.1...1.2.0) (2026-11-16)
 
 ### Features
