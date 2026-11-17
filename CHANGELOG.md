@@ -1,3 +1,9 @@
+## [1.4.0](https://github.com/dargmuesli/renovate-config/compare/1.3.1...1.4.0) (2026-11-17)
+
+### Features
+
+* **release:** release dependency updates that ship ([#69](https://github.com/dargmuesli/renovate-config/issues/69)) ([480c274](https://github.com/dargmuesli/renovate-config/commit/480c274719a11f2b3e21ca80bfe892efb4183aa1))
+
 ## [1.3.1](https://github.com/dargmuesli/renovate-config/compare/1.3.0...1.3.1) (2026-11-16)
 
 ### Bug Fixes
