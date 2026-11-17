@@ -5,14 +5,6 @@
   "customManagers": [
     {
       "customType": "regex",
-      "datasourceTemplate": "node",
-      "depNameTemplate": "node",
-      "managerFilePatterns": ["/^Dockerfile$/"],
-      "matchStrings": ["FROM node:(?<currentValue>.*?)-(alpine|slim)\\n"],
-      "versioningTemplate": "node"
-    },
-    {
-      "customType": "regex",
       "datasourceTemplate": "deb",
       "managerFilePatterns": [
         "/\\.github/workflows/.*\\.ya?ml$/",
@@ -77,17 +69,22 @@
     "group:allNonMajor",
     ":disableDependencyDashboard",
     ":semanticCommits",
-    ":semanticCommitTypeAll(chore)",
     ":widenPeerDependencies"
   ],
   "git-submodules": {
     "enabled": true
   },
-  "ignorePresets": ["docker:pinDigests", ":ignoreModulesAndTests"],
+  "ignorePresets": [":ignoreModulesAndTests"],
   "major": {
     "automerge": false
   },
+  "osvVulnerabilityAlerts": true,
   "packageRules": [
+    {
+      "description": "a base image ends up in the built or deployed image, so its update releases like a runtime dependency",
+      "matchManagers": ["docker-compose", "dockerfile"],
+      "semanticCommitType": "fix"
+    },
     {
       "description": "a patch of a 0.x version is offered beside its next minor",
       "group": {
@@ -140,5 +137,10 @@
       ]
     }
   ],
-  "printConfig": true
+  "printConfig": true,
+  "schedule": ["before 6am on monday"],
+  "timezone": "Europe/Berlin",
+  "vulnerabilityAlerts": {
+    "semanticCommitType": "fix"
+  }
 }
