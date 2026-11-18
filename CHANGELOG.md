@@ -1,3 +1,9 @@
+## [1.4.1](https://github.com/dargmuesli/renovate-config/compare/1.4.0...1.4.1) (2026-11-18)
+
+### Bug Fixes
+
+* **versioning:** compare docker tags of geoip-api, postgis, and zammad ([#70](https://github.com/dargmuesli/renovate-config/issues/70)) ([33dbc91](https://github.com/dargmuesli/renovate-config/commit/33dbc917de9f0f4e7fde9acaeeeaf24ade6acbc1))
+
 ## [1.4.0](https://github.com/dargmuesli/renovate-config/compare/1.3.1...1.4.0) (2026-11-17)
 
 ### Features
