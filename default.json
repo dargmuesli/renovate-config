@@ -113,9 +113,22 @@
       "matchPackageNames": ["mcr.microsoft.com/playwright"]
     },
     {
+      "description": "a tag counts the year and its week, which only compare as numbers when split",
       "matchDatasources": ["docker"],
       "matchPackageNames": ["ghcr.io/observabilitystack/geoip-api"],
-      "versioning": "regex:^(?<minor>\\d{4}-\\d{2})$"
+      "versioning": "regex:^(?<major>\\d{4})-(?<minor>\\d{2})$"
+    },
+    {
+      "description": "docker versioning reads the PostGIS version in a tag as a suffix, so a newer one never matches",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["imresamu/postgis", "postgis/postgis"],
+      "versioning": "regex:^(?<major>\\d+)-(?<minor>\\d+)\\.(?<patch>\\d+)(?<compatibility>-alpine)?$"
+    },
+    {
+      "description": "docker versioning reads the build number in a tag as a suffix, so a newer one never matches",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["ghcr.io/zammad/zammad"],
+      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-(?<build>\\d+)$"
     },
     {
       "matchDepTypes": ["dependencies"],
