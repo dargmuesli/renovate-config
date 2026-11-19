@@ -81,6 +81,12 @@
   "osvVulnerabilityAlerts": true,
   "packageRules": [
     {
+      "description": "a digest update is no riskier than a patch, so it joins the non-major group instead of opening one branch per image",
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-minor-patch",
+      "matchUpdateTypes": ["digest", "pinDigest"]
+    },
+    {
       "description": "a base image ends up in the built or deployed image, so its update releases like a runtime dependency",
       "matchManagers": ["docker-compose", "dockerfile"],
       "semanticCommitType": "fix"
