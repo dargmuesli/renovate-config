@@ -1,3 +1,9 @@
+## [1.5.0](https://github.com/dargmuesli/renovate-config/compare/1.4.1...1.5.0) (2026-11-20)
+
+### Features
+
+* **group:** group digest updates with non-major dependencies ([#71](https://github.com/dargmuesli/renovate-config/issues/71)) ([4ee507a](https://github.com/dargmuesli/renovate-config/commit/4ee507a184a8eaccb05e253c7553e105f06a5616))
+
 ## [1.4.1](https://github.com/dargmuesli/renovate-config/compare/1.4.0...1.4.1) (2026-11-18)
 
 ### Bug Fixes
