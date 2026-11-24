@@ -113,6 +113,11 @@
       "matchCategories": ["docker"]
     },
     {
+      "allowedVersions": "<3 || >=3.3",
+      "description": "portainer 3.0 to 3.2 are short term support releases for a business edition only, so hold the agent until the first 3.x lts for a coordinated server and agent move",
+      "matchPackageNames": ["portainer/agent"]
+    },
+    {
       "description": "the playwright image is tracked through its npm package by a custom manager, which applies npm's minimum release age, so the image never updates without the package",
       "enabled": false,
       "matchManagers": ["dockerfile"],
