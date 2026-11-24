@@ -1,3 +1,9 @@
+## [1.6.0](https://github.com/dargmuesli/renovate-config/compare/1.5.0...1.6.0) (2026-11-24)
+
+### Features
+
+* **portainer:** hold 3.x updates until the 3.3 lts ([#74](https://github.com/dargmuesli/renovate-config/issues/74)) ([fb9283c](https://github.com/dargmuesli/renovate-config/commit/fb9283c2f1b1a081bae0c02c35f42b9af9b87b48))
+
 ## [1.5.0](https://github.com/dargmuesli/renovate-config/compare/1.4.1...1.5.0) (2026-11-20)
 
 ### Features
